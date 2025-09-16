@@ -15,14 +15,12 @@ public class Monchien {
 String nom;
 int age;
 Sexe sexe; // AJout du champ sexe
-Race race;
 
 //Constructeur : meme nom que la classe, pas de type de retour
-public Monchien(String nom, int age, Sexe sexe, Race race) {
+public Monchien(String nom, int age, Sexe sexe) {
 	this.nom = nom;
 	this.age = age;
 	this.sexe = sexe;
-	this.race = race;
 }
 
 //Methode
