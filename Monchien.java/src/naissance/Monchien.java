@@ -14,8 +14,8 @@ enum Race{
 public class Monchien {
 String nom;
 int age;
-Sexe sexe; // AJout du champ sexe
-Race race;
+Sexe sexe; //ajout du champ sexe
+Race race; //ajout du champ race
 
 //Constructeur : meme nom que la classe, pas de type de retour
 public Monchien(String nom, int age, Sexe sexe, Race race) {
@@ -25,8 +25,20 @@ public Monchien(String nom, int age, Sexe sexe, Race race) {
 	this.race = race;
 }
 
-//Methode
+//Methode 
 public void aboyer() {
 	System.out.println("Wouf!");
 }
+
+//Methode pour montrer le chien lors du print
+public void carteidentite() {
+	System.out.println("Nom : " + nom);
+    System.out.println("Âge : " + age + " ans");
+    System.out.println("Sexe : " + sexe);
+    System.out.println("Race : " + race);
+}
+
+
+
+
 }

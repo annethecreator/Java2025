@@ -3,9 +3,10 @@ package naissance;
 //ICI mon programme demare
 public class Main{
 	public static void main(String[] args) {
-		//Il demare ici
-		Monchien bill = new Monchien("bill", 5, Sexe.MALE); //creation de l'objet Monchien
+		//Il demarre ici
+		Monchien bill = new Monchien("bill",5, Sexe.MALE, Race.LABRADOR); //creation de l'objet Monchien
 	    bill.aboyer(); // on appelle sa méthode
+	    bill.carteidentite();
 	}
 }
 
