@@ -19,8 +19,8 @@ public void aboyer() {
 public class Main{
 	public static void main(String[] args) {
 		//Il demarre ici
-		Monchien antoine = new Monchien("antoine",5); //creation de l'objet Monchien
-	    antoine.aboyer(); // on appelle sa méthode
+		Monchien bill = new Monchien("bill",5); //creation de l'objet Monchien
+	    bill.aboyer(); // on appelle sa méthode
 	}
 }
 
