@@ -23,7 +23,7 @@ Race race; //ajout du champ race
 Color color;
 
 //Constructeur : meme nom que la classe, pas de type de retour
-public Monchien(String nom, int age, Sexe sexe, Race race, Color color) {
+public Monchien(String nom, int age, Sexe sexe, Race race) {
 	this.nom = nom;
 	this.age = age;
 	this.sexe = sexe;
@@ -43,7 +43,7 @@ public void carteidentite() {
     System.out.println("Âge : " + age + " ans");
     System.out.println("Sexe : " + sexe);
     System.out.println("Race : " + race);
-    System.out.print("Couleur : Mon chien beau chien est de couleur " + color);
+    System.out.print("Couleur : Mon chien est de couleur " + color);
 }
 
 
