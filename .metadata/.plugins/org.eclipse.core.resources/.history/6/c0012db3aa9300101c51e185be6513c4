@@ -1,9 +1,6 @@
 package naissance;
-/*** Ma classe "MonChien"
- cette classe est la naissance de mon chien, toute sa création ce trouve dans cette classe
-  ***/
-		
-		
+
+
 //Creation du genre de mon chien et de sa race
 enum Sexe{
 	MALE,FEMELLE
