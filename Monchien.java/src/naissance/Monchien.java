@@ -1,10 +1,11 @@
 package naissance;
 /*** Ma classe "MonChien"
- cette classe est la naissance de mon chien, toute sa création ce trouve dans cette classe
+ Creation des attributs et Methodes de Monchien
+ les attributs c'est ses caracteristiques et Methodes c'est ce que mon chien fait "ici il aboie"
   ***/
 		
 		
-//Creation du genre de mon chien et de sa race
+//Creation des  ATTRIBUTS de la classe Monchien (genre,race,couleur)
 enum Sexe{
 	MALE,FEMELLE
 }
@@ -17,8 +18,10 @@ enum Color{
 	BLUE,RED
 }
 
-//Classe Monchien
-public class Monchien {
+/***Classe Monchien décrit ce que mon chien  a "la classe n’est pas l’objet en soi. Elle est comme un plan ou un moule.
+ * c'est le squelette de mon chien ***/
+
+public class Monchien { // Debut class Monchien, ici vont ce trouver les attributs et methode
 String nom;
 int age;
 Sexe sexe; //ajout du champ sexe
@@ -35,21 +38,17 @@ public Monchien(String nom, int age, Sexe sexe, Race race, Color color) {
 	
 }
 
-//Methode 
+//Methode pour qu'il aboie
 public void aboyer() {
 	System.out.println("Wouf!");
 }
 
 //Methode pour montrer le chien lors du print
 public void carteidentite() {
-	System.out.println("Nom : " + nom);
-    System.out.println("Âge : " + age + " ans");
-    System.out.println("Sexe : " + sexe);
-    System.out.println("Race : " + race);
+	System.out.println("Nom et age : " + age+ nom);
+    System.out.println("Sexe et Race: " + sexe + race);
     System.out.print("Couleur : Mon chien beau chien est de couleur " + color);
 }
-
-
 
 
 }

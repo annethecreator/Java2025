@@ -1,4 +1,13 @@
 package naissance;
+/*** Ma classe Main 
+ * Elle utilise un constructeur pour créer un objet "MonChien"
+ * 
+ *J'appelle un constructeur de la classe Monchien avec 5 parametres (le constructeur n'est pas inclus ici)
+ *car il se trouve dans la Classe Monchien et pas dans le main!!!
+ * 
+ * 
+ * 
+ * ***/
 
 //ICI mon programme demare
 public class Main{
