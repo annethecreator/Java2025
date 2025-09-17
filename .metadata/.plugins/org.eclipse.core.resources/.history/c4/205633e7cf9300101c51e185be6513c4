@@ -29,13 +29,4 @@ public class Main{ //debut classe main
  * 
  * 
  * RESUMER
- * Main = classe qui lance ton programme
-
-main() = point d’entrée
-
-Création d’objet : Monchien bill = new Monchien(...)
-
-Appel de méthodes sur l’objet : bill.aboyer(), bill.carteidentite()
-
-La classe Monchien définit les caractéristiques et actions de l’objet, mais tout est utilisé ici dans Main.
  */

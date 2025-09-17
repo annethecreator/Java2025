@@ -14,8 +14,8 @@ public class Main{ //debut classe main
 	public static void main(String[] args) {
 		//Il demarre ici
 		Monchien bill = new Monchien("bill",5, Sexe.MALE, Race.LABRADOR, Color.BLUE); //creation de l'objet Monchien qui s'appelle bill
-	    bill.aboyer(); // on appelle la méthode aboyer() de mon objet bill puis affiche wouf
-	    bill.carteidentite(); // on appelle la methode carteidentite de bill et affiche toutes les infos de mon chien
+	    bill.aboyer(); // on appelle sa méthode
+	    bill.carteidentite();
 	    
 	}
 } //fin classe main
@@ -23,19 +23,4 @@ public class Main{ //debut classe main
 /***
  * Dans la classe Main que j'ai crée ici, elle va cree un objet "Monchien"
  * Le constructeur que j'utilise est defini dans la classe Monchien (donc pas ici)
- * 
- * Avec LES VALEURS que j'ai donnée a bill , bill devient une instance concrete de la
- * classe Monchien 
- * 
- * 
- * RESUMER
- * Main = classe qui lance ton programme
-
-main() = point d’entrée
-
-Création d’objet : Monchien bill = new Monchien(...)
-
-Appel de méthodes sur l’objet : bill.aboyer(), bill.carteidentite()
-
-La classe Monchien définit les caractéristiques et actions de l’objet, mais tout est utilisé ici dans Main.
  */
