@@ -1,0 +1,14 @@
+package naissance;
+/*** Ma classe Main ***/
+
+//ICI mon programme demare
+public class Main{
+	public static void main(String[] args) {
+		//Il demarre ici
+		Monchien bill = new Monchien("bill",5, Sexe.MALE, Race.LABRADOR, Color.BLUE); //creation de l'objet Monchien
+	    bill.aboyer(); // on appelle sa méthode
+	    bill.carteidentite();
+	    
+	}
+}
+

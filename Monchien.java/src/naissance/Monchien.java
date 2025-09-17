@@ -6,6 +6,8 @@ package naissance;
 		
 		
 //Creation des  ATTRIBUTS de la classe Monchien (genre,race,couleur)
+/*** enum est un type spécial qui définit un ensemble de valeurs possibles, ces enumerations 
+ * permettent de limiter les valeurs possibles d'un attribut, sexe a que male femele ***/
 enum Sexe{
 	MALE,FEMELLE
 }
@@ -21,7 +23,7 @@ enum Color{
 /***Classe Monchien décrit ce que mon chien  a "la classe n’est pas l’objet en soi. Elle est comme un plan ou un moule.
  * c'est le squelette de mon chien ***/
 
-public class Monchien { // Debut class Monchien, ici vont ce trouver les attributs et methode
+public class Monchien { // DEBUT class Monchien, juste en dessous on  va ce retrouver avec les attributs et methodes, tous sont dans la meme classe
 String nom;
 int age;
 Sexe sexe; //ajout du champ sexe
@@ -29,8 +31,9 @@ Race race; //ajout du champ race
 Color color;
 
 //Constructeur : meme nom que la classe, pas de type de retour
+/*** methode speciale pour creer un objet et lui donner ses valeurs initiales ***/
 public Monchien(String nom, int age, Sexe sexe, Race race, Color color) {
-	this.nom = nom;
+	this.nom = nom; // this.nom = nom; signifie : "la variable nom de cet objet = valeur passée au constructeur
 	this.age = age;
 	this.sexe = sexe;
 	this.race = race;
@@ -38,12 +41,16 @@ public Monchien(String nom, int age, Sexe sexe, Race race, Color color) {
 	
 }
 
-//Methode pour qu'il aboie
+/***Methode pour qu'il aboie (qd on parle de methode on veut dire action que peut faire l'objet)
+ici mon objet Monchien "aboie"***/
 public void aboyer() {
-	System.out.println("Wouf!");
+	System.out.println("Woufff!");
 }
 
-//Methode pour montrer le chien lors du print
+/***Methode qui affiche les infos du chien lors du print
+ * Elle utilise les attributs de l'objet pour faire l'affichage
+ * 
+ */
 public void carteidentite() {
 	System.out.println("Nom et age : " + age+ nom);
     System.out.println("Sexe et Race: " + sexe + race);
@@ -51,4 +58,19 @@ public void carteidentite() {
 }
 
 
-}
+} //Fin de la classe fin Monchien
+
+
+/*** Resumer
+ * Classe = plan/moule
+
+Objet = instance concrète (ex : ton chien “Rex”)
+
+Attributs = caractéristiques (nom, âge, race…)
+
+Méthodes = actions que l’objet peut faire (aboyer, montrer sa carte d’identité)
+
+Constructeur = créer un objet avec des valeurs initiales
+
+enum = ensemble limité de valeurs possibles (ex : sexe, race, couleur)/
+ */

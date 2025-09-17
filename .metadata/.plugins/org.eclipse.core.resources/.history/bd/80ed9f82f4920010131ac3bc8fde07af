@@ -1,0 +1,30 @@
+package naissance;
+
+
+//Creation du genre de mon chien
+enum Sexe{
+	MALE,FEMELLE
+}
+
+enum Race{
+	LABRADOR,CHIUAUA
+}
+
+//Classe Monchien
+public class Monchien {
+String nom;
+int age;
+Sexe sexe; // AJout du champ sexe
+
+//Constructeur : meme nom que la classe, pas de type de retour
+public Monchien(String nom, int age, Sexe sexe) {
+	this.nom = nom;
+	this.age = age;
+	this.sexe = sexe;
+}
+
+//Methode
+public void aboyer() {
+	System.out.println("Wouf!");
+}
+}

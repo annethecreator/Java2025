@@ -1,0 +1,25 @@
+package hopital;
+
+
+	class MedecinGeneraliste {
+	    void soigner() {
+	        System.out.println("Soigne les patients de manière générale");
+	    }
+
+	    int compterPatients() {
+	        return 8; // retourne un nombre
+	    }
+	
+
+	public class Main {
+	    public static void main(String[] args) {
+	        MedecinGeneraliste doc = new MedecinGeneraliste();
+	        
+	        doc.soigner();            // void → ne retourne rien, juste affiche un texte
+	        int nb = doc.compterPatients(); // retourne 5
+	        System.out.println(nb);   // affiche 5
+	    }
+	}
+
+
+}

@@ -1,0 +1,8 @@
+package bonjour;
+
+public class Jesuisuntest {
+	public static void main(String[] args) {
+		System.out.println("trop cool");
+	}
+
+}
