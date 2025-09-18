@@ -16,7 +16,7 @@ enum Race{
 	LABRADOR,CHIUAUA
 }
 
-enum Color{
+enum DogColor{
 	BLUE,RED
 }
 
@@ -28,18 +28,18 @@ String nom;
 int age;
 Sexe sexe; //ajout du champ sexe
 Race race; //ajout du champ race
-Color color;
+DogColor dogcolor;
 
 //Constructeur : meme nom que la classe, pas de type de retour
 /*** methode speciale pour creer un objet et lui donner ses valeurs initiales ***/
-public Monchien(String nom, int age, Sexe sexe, Race race, Color color) {
+public Monchien(String nom, int age, Sexe sexe, Race race, DogColor dogcolor) {
 	this.nom = nom; // this.nom = nom; signifie : "la variable nom de cet objet = valeur passée au constructeur
 	this.age = age;
 	this.sexe = sexe;
 	this.race = race;
-	this.color = color;
+	this.dogcolor = dogcolor;
 	
-}
+} //fin de mon constructeur
 
 /***Methode pour qu'il aboie (qd on parle de methode on veut dire action que peut faire l'objet)
 ici mon objet Monchien "aboie"***/
@@ -54,7 +54,7 @@ public void aboyer() {
 public void carteidentite() {
 	System.out.println("Nom et age : " + age+ nom);
     System.out.println("Sexe et Race: " + sexe + race);
-    System.out.print("Couleur : Mon chien beau chien est de couleur " + color);
+    System.out.print("Couleur : Mon chien beau chien est de couleur " + dogcolor);
 }
 
 
