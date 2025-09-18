@@ -13,12 +13,12 @@ package creation;
 public class Main{ //debut classe main 
 	public static void main(String[] args) {
 		//Il demarre ici
-		Monchien bill = new Monchien("bill",5, Sexe.MALE, Race.LABRADOR, Color.BLUE); //creation de l'objet Monchien qui s'appelle bill
+		Monchien bill = new Monchien("bill",5, Sexe.MALE, Race.LABRADOR, DogColor.BLUE); //creation de l'objet Monchien qui s'appelle bill
 	    bill.aboyer(); // on appelle la méthode aboyer() de mon objet bill puis affiche wouf
 	    bill.carteidentite(); // on appelle la methode carteidentite de bill et affiche toutes les infos de mon chien
 	    
 	}
-} //fin classe main
+} //fin de la classe main
 
 /***
  * Dans la classe Main que j'ai crée ici, elle va cree un objet "Monchien"
