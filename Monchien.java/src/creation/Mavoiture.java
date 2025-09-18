@@ -10,12 +10,9 @@ enum Carcolor{
 
 enum Seat{
 	ONE,TWO,FOUR
-	
 }
 
 enum Vitesse{
 	FAST,SLOW_CAR
 }
-public class Mavoiture {
 
-}
