@@ -1,0 +1,30 @@
+package creation;
+
+enum Brand{
+	TESLA,PORSCHE,MERCEDES
+}
+
+enum Carcolor{
+	BLUE,PINK,YELLOW
+}
+
+enum Seat{
+	ONE,TWO,FOUR
+}
+
+enum Vitesse{
+	FAST,SLOW_CAR
+}
+
+public class Mavoiture {
+ String ownername;
+ int ownerage;
+ Brand brand;
+ Carcolor carcolor;
+ Seat seat;
+ Vitesse vitesse;
+ }
+
+public Mavoiture{
+	
+}

@@ -1,0 +1,12 @@
+package creation;
+
+enum brand{
+	TESLA,PORSCHE,MERCEDES
+}
+
+enum color{
+	BLUE,PINK,YELLOW
+}
+public class Mavoiture {
+
+}
